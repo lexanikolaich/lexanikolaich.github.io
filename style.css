@@ -1,0 +1,289 @@
+
+.lib p{
+text-align: justify;
+}
+.center-pic, .center-vid{
+display:block;
+margin:auto;
+}
+.lib a {
+  display:block;
+  margin:auto;
+}
+.lib, .lab{
+  margin: 10px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+body{
+  width: 1000px;
+  margin: 15px auto;
+  font-family: Arial, "MS Trebushet", sans-serif;
+}
+main{
+  border: 1px solid gray;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+p{
+  margin: 0 0 20px 0;
+}
+p, li{
+  line-height: 20px;
+}
+#page_header{
+  position:relative;
+  width: 1000px;
+  height: 255px;
+  background-color: #25B33f;
+  margin-bottom: 0px;
+  background-image: url(images/header.jpg);
+}
+#page_header > a > img{
+  position:absolute;
+    top:50px;
+    left:10px;
+}
+.descript{
+  color: black;
+  font-style: italic;
+  font-size:22px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 20px;
+  text-shadow:
+    -0   -2px 4px #F9F9F9,
+     0   -2px 4px #F9F9F9,
+    -0    2px 4px #F9F9F9,
+     0    2px 4px #F9F9F9,
+    -2px -0   4px #F9F9F9,
+     2px -0   4px #F9F9F9,
+    -2px  0   4px #F9F9F9,
+     2px  0   4px #F9F9F9,
+    -1px -2px 4px #F9F9F9,
+     1px -2px 4px #F9F9F9,
+    -1px  2px 4px #F9F9F9,
+     1px  2px 4px #F9F9F9,
+    -2px -1px 4px #F9F9F9,
+     2px -1px 4px #F9F9F9,
+    -2px  1px 4px #F9F9F9,
+     2px  1px 4px #F9F9F9,
+    -2px -2px 4px #F9F9F9,
+     2px -2px 4px #F9F9F9,
+    -2px  2px 4px #F9F9F9,
+     2px  2px 4px #F9F9F9,
+    -2px -2px 4px #F9F9F9,
+     2px -2px 4px #F9F9F9,
+    -2px  2px 4px #F9F9F9,
+     2px  2px 4px #F9F9F9;
+}
+#page_header > h1{
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 100px;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size:72px;
+  text-shadow:
+		-0   -2px 4px #F9F9F9,
+		 0   -2px 4px #F9F9F9,
+		-0    2px 4px #F9F9F9,
+		 0    2px 4px #F9F9F9,
+		-2px -0   4px #F9F9F9,
+		 2px -0   4px #F9F9F9,
+		-2px  0   4px #F9F9F9,
+		 2px  0   4px #F9F9F9,
+		-1px -2px 4px #F9F9F9,
+		 1px -2px 4px #F9F9F9,
+		-1px  2px 4px #F9F9F9,
+		 1px  2px 4px #F9F9F9,
+		-2px -1px 4px #F9F9F9,
+		 2px -1px 4px #F9F9F9,
+		-2px  1px 4px #F9F9F9,
+		 2px  1px 4px #F9F9F9,
+		-2px -2px 4px #F9F9F9,
+		 2px -2px 4px #F9F9F9,
+		-2px  2px 4px #F9F9F9,
+		 2px  2px 4px #F9F9F9,
+		-2px -2px 4px #F9F9F9,
+		 2px -2px 4px #F9F9F9,
+		-2px  2px 4px #F9F9F9,
+		 2px  2px 4px #F9F9F9;
+}
+#page_header > nav > ul, #page_footer nav > ul{
+list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#page_header > nav > ul > li, footer#page_footer nav > ul > li{
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline;
+}
+#posts{
+  float: left;
+  width: 66%;
+}
+#sidebar{
+  float:left;
+  width: 33%;
+}
+#page_footer{
+  clear:both;
+  display: block;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+}
+
+
+.vertmenu {
+margin: 0 20px;
+font-family: 'Open Sans', sans-serif;
+}
+.vertmenu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.vertmenu ul li {
+position: relative;
+margin: 0;
+line-height: 30px;
+}
+.vertmenu ul li li {
+padding-left:20px;
+}
+.vertmenu .subCat, .chka {
+top: 0;
+right: 0px;
+position: absolute;
+cursor: pointer;
+}
+.vertmenu .subCat.plus,
+.chka:before,
+.vertmenu .subCat.minus,
+.subCat:checked + .chka:before {
+content: '+';
+font-size: 26px;
+color: black;
+font-weight: bold;
+font-family: Courier;
+}
+.vertmenu .subCat.minus, .subCat:checked + .chka:before {
+content: '-';
+}
+.vertmenu a {
+color: black;
+font-size: 16px;
+font-weight:bold;
+text-decoration:none;
+}
+.vertmenu ul li li a {
+color: black;
+font-size: 14px;
+font-weight: bold;
+text-decoration:none;
+}
+.vertmenu a.active {
+color: black;
+}
+.vertmenu a:hover {
+text-decoration: none;
+color: black !important;
+}
+.vertmenu > ul > li ul {
+display: none;
+}
+.vertmenu > ul > li a.active + span + ul {
+display: block !important;
+}
+.vertmenu > ul > li .subCat:checked ~ ul {
+display: block !important;
+}
+.vertmenu input[type=checkbox].subCat {
+display:none;
+}
+.vertmenu ul li li a:before {
+content: '\203A';
+font-size: 10px;
+padding-right: 6px;
+color: black;
+font-weight: bold;
+}
+.vertmenu > ul li li a:hover:before {
+color: black;
+}
